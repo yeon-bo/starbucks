@@ -10,8 +10,6 @@
  function onYouTubeIframeAPIReady() {
    new YT.Player('player', {
        videoId: 'An6LvWQuj_8',
-       events: {
-         'onReady': onPlayerReady,
          playerVars: {
            autoplay: true,
            loop: true,
